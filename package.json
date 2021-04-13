@@ -1,6 +1,6 @@
 {
   "name": "manifold-gas-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "main": "index.js",
   "scripts": {
