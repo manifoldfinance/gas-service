@@ -1,0 +1,14 @@
+node_modules/
+output/
+.DS_Store
+service/
+*.log
+*.tgz
+*.tar.gz
+*.cache
+cache/
+build/
+dist/
+.env
+.env.prod
+.env.dev

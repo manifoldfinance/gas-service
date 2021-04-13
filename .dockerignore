@@ -1,0 +1,11 @@
+.git
+.github/
+docker-compose.yml
+buildx.sh
+run.sh
+Dockerfile
+.prettierrc.json
+.eslintrc.js
+docs/
+typedoc.json
+

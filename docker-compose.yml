@@ -1,0 +1,13 @@
+version: '3.9'
+networks:
+  gas_service:
+    external: false
+
+services:
+  gasprice:
+    networks:
+      - gas_service
+    init: true
+    build:
+      context: .
+      dockerfile: Dockerfile

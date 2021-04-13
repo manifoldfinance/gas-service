@@ -1,0 +1,9 @@
+{
+  "name": "Gas Service",
+  "entryPoints": [
+    "./src/WebServer.ts",
+    "./src/GasOracle.ts",
+    "./typings/ethers.d.ts"
+  ],
+  "out": "docs"
+}

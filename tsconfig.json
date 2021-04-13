@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "service",
+    "rootDir": "src",
+    "paths": {
+      "*": ["./typings/*"]
+    },
+    "strict": true,
+    "experimentalDecorators": true,
+    "alwaysStrict": true
+  }
+}
