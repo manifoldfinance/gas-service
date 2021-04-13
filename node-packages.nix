@@ -373,12 +373,12 @@ let
         sha1 = "0258eae4d3d0c0974de1c169188ef0051d1d1988";
       };
     };
-    "ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream" = {
+    "ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream.git#939276a0c8a954b5c1bff46c1ae7c3d23a80d0be" = {
       name = "ethereumjs-blockstream";
       packageName = "ethereumjs-blockstream";
       version = "7.1.2";
       src = fetchgit {
-        url = "https://github.com/manifoldfinance/blockstream";
+        url = "https://github.com/manifoldfinance/blockstream.git";
         rev = "939276a0c8a954b5c1bff46c1ae7c3d23a80d0be";
         sha256 = "505d1926a60e8bd6360ca28d54a279e7e5913284c20c4c0af775bf6b6289231a";
       };
@@ -482,13 +482,13 @@ let
         sha1 = "a85ccb40b7d986d8e5a345b3a1ace8eabcf54de7";
       };
     };
-    "koa-compose-4.2.0" = {
+    "koa-compose-4.1.0" = {
       name = "koa-compose";
       packageName = "koa-compose";
-      version = "4.2.0";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/koa-compose/-/koa-compose-4.2.0.tgz";
-        sha512 = "/Io2dpt3uU/wWkn2pkRBj3vudzsi6hMssGkREZCxLIczAIvLWy5Jw9PW7ctTxvcfXKCisbgsMLsgE1BvSZB6Kw==";
+        url = "https://registry.npmjs.org/koa-compose/-/koa-compose-4.1.0.tgz";
+        sha512 = "8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==";
       };
     };
     "koa-convert-1.2.0" = {
@@ -763,7 +763,7 @@ let
       sources."ee-first-1.1.1"
       sources."encodeurl-1.0.2"
       sources."escape-html-1.0.3"
-      sources."ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream"
+      sources."ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream.git#939276a0c8a954b5c1bff46c1ae7c3d23a80d0be"
       sources."form-data-3.0.1"
       sources."fresh-0.5.2"
       (sources."http-assert-1.4.1" // {
@@ -783,7 +783,7 @@ let
       sources."is-generator-function-1.0.8"
       sources."keygrip-1.1.0"
       sources."koa-2.13.1"
-      sources."koa-compose-4.2.0"
+      sources."koa-compose-4.1.0"
       (sources."koa-convert-1.2.0" // {
         dependencies = [
           sources."koa-compose-3.2.1"
@@ -818,7 +818,7 @@ let
     };
     production = true;
     bypassCache = true;
-    reconstructLock = true;
+    reconstructLock = false;
   };
 in
 {
