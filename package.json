@@ -1,11 +1,12 @@
 {
   "name": "manifold-gas-service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "main": "index.js",
   "scripts": {
     "docs": "npx typedoc --hideGenerator  --theme node_modules/typedoc-neo-theme --highlightTheme dark-plus --includeVersion",
-    "fmt": "npx prettier --config .prettierrc.json --write ."
+    "fmt": "npx prettier --config .prettierrc.json --write .",
+    "relesae": "nix-build -A tarball"
   },
   "repository": {
     "type": "git",
