@@ -8,4 +8,7 @@ Dockerfile
 .eslintrc.js
 docs/
 typedoc.json
-
+*.tar.gz
+*.zip
+*.tar
+*.tgz
