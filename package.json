@@ -18,7 +18,7 @@
     "@types/node": "^14.14.37",
     "@types/node-fetch": "2.5.7",
     "collections": "5.1.2",
-    "ethereumjs-blockstream": "^7.0.0",
+    "ethereumjs-blockstream": "git+https://github.com/manifoldfinance/blockstream",
     "koa": "^2.13.1",
     "koa2-cors": "2.0.5",
     "node-fetch": "2.6.1",

@@ -373,22 +373,23 @@ let
         sha1 = "0258eae4d3d0c0974de1c169188ef0051d1d1988";
       };
     };
-    "ethereumjs-blockstream-7.0.0" = {
+    "ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream" = {
       name = "ethereumjs-blockstream";
       packageName = "ethereumjs-blockstream";
-      version = "7.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/ethereumjs-blockstream/-/ethereumjs-blockstream-7.0.0.tgz";
-        sha512 = "lt3uLKDEfNHEqqnl/+W0aC7xp2y7JEsgZsJMZ958CNrYIJH9tZ7oa8npwV2M0KhGlfzmJsyJIpvV/Lvb2mh0tA==";
+      version = "7.1.2";
+      src = fetchgit {
+        url = "https://github.com/manifoldfinance/blockstream";
+        rev = "939276a0c8a954b5c1bff46c1ae7c3d23a80d0be";
+        sha256 = "505d1926a60e8bd6360ca28d54a279e7e5913284c20c4c0af775bf6b6289231a";
       };
     };
-    "form-data-3.0.0" = {
+    "form-data-3.0.1" = {
       name = "form-data";
       packageName = "form-data";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/form-data/-/form-data-3.0.0.tgz";
-        sha512 = "CKMFDglpbMi6PyN+brwB9Q/GOw0eAnsrEZDgcsH5Krhz5Od/haKHAX0NmQfha2zPPz0JpWzA7GJHGSnvCRLWsg==";
+        url = "https://registry.npmjs.org/form-data/-/form-data-3.0.1.tgz";
+        sha512 = "RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==";
       };
     };
     "fresh-0.5.2" = {
@@ -481,13 +482,13 @@ let
         sha1 = "a85ccb40b7d986d8e5a345b3a1ace8eabcf54de7";
       };
     };
-    "koa-compose-4.1.0" = {
+    "koa-compose-4.2.0" = {
       name = "koa-compose";
       packageName = "koa-compose";
-      version = "4.1.0";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/koa-compose/-/koa-compose-4.1.0.tgz";
-        sha512 = "8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==";
+        url = "https://registry.npmjs.org/koa-compose/-/koa-compose-4.2.0.tgz";
+        sha512 = "/Io2dpt3uU/wWkn2pkRBj3vudzsi6hMssGkREZCxLIczAIvLWy5Jw9PW7ctTxvcfXKCisbgsMLsgE1BvSZB6Kw==";
       };
     };
     "koa-convert-1.2.0" = {
@@ -517,15 +518,6 @@ let
         sha1 = "8710d7af0aa626f8fffa1ce00168545263255748";
       };
     };
-    "mime-db-1.30.0" = {
-      name = "mime-db";
-      packageName = "mime-db";
-      version = "1.30.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.30.0.tgz";
-        sha1 = "74c643da2dd9d6a45399963465b26d5ca7d71f01";
-      };
-    };
     "mime-db-1.47.0" = {
       name = "mime-db";
       packageName = "mime-db";
@@ -533,15 +525,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/mime-db/-/mime-db-1.47.0.tgz";
         sha512 = "QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==";
-      };
-    };
-    "mime-types-2.1.17" = {
-      name = "mime-types";
-      packageName = "mime-types";
-      version = "2.1.17";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.17.tgz";
-        sha1 = "09d7a393f03e995a79f8af857b70a9e0ab16557a";
       };
     };
     "mime-types-2.1.30" = {
@@ -643,13 +626,13 @@ let
         sha512 = "UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==";
       };
     };
-    "source-map-support-0.5.6" = {
+    "source-map-support-0.5.19" = {
       name = "source-map-support";
       packageName = "source-map-support";
-      version = "0.5.6";
+      version = "0.5.19";
       src = fetchurl {
-        url = "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.6.tgz";
-        sha512 = "N4KXEz7jcKqPf2b2vZF11lQIz9W5ZMuUcIOGj243lduidkf2fjkVKJS9vNxVWn3u/uxX38AcE8U9nnH9FPcq+g==";
+        url = "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.19.tgz";
+        sha512 = "Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==";
       };
     };
     "statuses-1.5.0" = {
@@ -697,13 +680,13 @@ let
         sha512 = "V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==";
       };
     };
-    "uuid-3.2.1" = {
+    "uuid-3.4.0" = {
       name = "uuid";
       packageName = "uuid";
-      version = "3.2.1";
+      version = "3.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/uuid/-/uuid-3.2.1.tgz";
-        sha512 = "jZnMwlb9Iku/O3smGWvZhauCf6cvvpKi4BKRiliS3cxnI+Gz9j5MEpTz2UFuXiKPJocb7gnsLHwiS05ige5BEA==";
+        url = "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz";
+        sha512 = "HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==";
       };
     };
     "vary-1.1.2" = {
@@ -737,7 +720,7 @@ let
   args = {
     name = "manifold-gas-service";
     packageName = "manifold-gas-service";
-    version = "1.0.2";
+    version = "1.0.3";
     src = ./.;
     dependencies = [
       sources."@types/accepts-1.3.5"
@@ -760,21 +743,11 @@ let
       sources."@types/qs-6.9.6"
       sources."@types/range-parser-1.2.3"
       sources."@types/serve-static-1.13.9"
-      (sources."accepts-1.3.7" // {
-        dependencies = [
-          sources."mime-db-1.47.0"
-          sources."mime-types-2.1.30"
-        ];
-      })
+      sources."accepts-1.3.7"
       sources."any-promise-1.3.0"
       sources."asynckit-0.4.0"
       sources."buffer-from-1.1.1"
-      (sources."cache-content-type-1.0.1" // {
-        dependencies = [
-          sources."mime-db-1.47.0"
-          sources."mime-types-2.1.30"
-        ];
-      })
+      sources."cache-content-type-1.0.1"
       sources."co-4.6.0"
       sources."collections-5.1.2"
       sources."combined-stream-1.0.8"
@@ -790,8 +763,8 @@ let
       sources."ee-first-1.1.1"
       sources."encodeurl-1.0.2"
       sources."escape-html-1.0.3"
-      sources."ethereumjs-blockstream-7.0.0"
-      sources."form-data-3.0.0"
+      sources."ethereumjs-blockstream-git+https://github.com/manifoldfinance/blockstream"
+      sources."form-data-3.0.1"
       sources."fresh-0.5.2"
       (sources."http-assert-1.4.1" // {
         dependencies = [
@@ -810,7 +783,7 @@ let
       sources."is-generator-function-1.0.8"
       sources."keygrip-1.1.0"
       sources."koa-2.13.1"
-      sources."koa-compose-4.1.0"
+      sources."koa-compose-4.2.0"
       (sources."koa-convert-1.2.0" // {
         dependencies = [
           sources."koa-compose-3.2.1"
@@ -818,8 +791,8 @@ let
       })
       sources."koa2-cors-2.0.5"
       sources."media-typer-0.3.0"
-      sources."mime-db-1.30.0"
-      sources."mime-types-2.1.17"
+      sources."mime-db-1.47.0"
+      sources."mime-types-2.1.30"
       sources."ms-2.0.0"
       sources."negotiator-0.6.2"
       sources."node-fetch-2.6.1"
@@ -829,18 +802,13 @@ let
       sources."safe-buffer-5.1.2"
       sources."setprototypeof-1.1.1"
       sources."source-map-0.6.1"
-      sources."source-map-support-0.5.6"
+      sources."source-map-support-0.5.19"
       sources."statuses-1.5.0"
       sources."toidentifier-1.0.0"
       sources."tsscmp-1.0.6"
-      (sources."type-is-1.6.18" // {
-        dependencies = [
-          sources."mime-db-1.47.0"
-          sources."mime-types-2.1.30"
-        ];
-      })
+      sources."type-is-1.6.18"
       sources."typescript-4.2.4"
-      sources."uuid-3.2.1"
+      sources."uuid-3.4.0"
       sources."vary-1.1.2"
       sources."weak-map-1.0.5"
       sources."ylru-1.2.1"
@@ -850,7 +818,7 @@ let
     };
     production = true;
     bypassCache = true;
-    reconstructLock = false;
+    reconstructLock = true;
   };
 in
 {
