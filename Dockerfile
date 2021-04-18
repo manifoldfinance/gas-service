@@ -17,7 +17,7 @@ FROM node:14.16.1-alpine3.12
 COPY --from=builder /app /app
 
 EXPOSE 80
-ENV ETHEREUM_URL http://localhost:8545/
+ENV ETHEREUM_URL https://mainnet.infura.io/v3/ed483295c05b4730938cafe48441773c
 ENV POLLING_FREQUENCY_SECONDS 5
 
 ENTRYPOINT [ "node", "output/WebServer.js" ]
