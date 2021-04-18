@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "esnext",
+		"module": "commonjs",
+		"sourceMap": true,
+		"outDir": "output",
+		"rootDir": "source",
+		"paths": {
+			"*": [
+				"./typings/*"
+			]
+		},
+		"strict": true,
+		"experimentalDecorators": true,
+		"alwaysStrict": true
+	}
+}
